@@ -446,6 +446,7 @@ header
 
 .background-header .main-nav .nav {
     margin-top: 20px !important;
+    border-radius: 10px;
 }
 
 .header-area .main-nav .nav {
