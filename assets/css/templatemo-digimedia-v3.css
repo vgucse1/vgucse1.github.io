@@ -705,6 +705,7 @@ header
 
 .header-area .nav {
     margin-top: 30px;
+    border-radius: 10px;
 }
 
 .header-area.header-sticky .nav li a.active {
