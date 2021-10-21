@@ -1741,7 +1741,8 @@ Blog
 .show-up {
     position: relative;
     z-index: 2;
-    /*old: 222*/
+
+
 }
 
 .blog-post .thumb img {
