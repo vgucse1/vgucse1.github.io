@@ -10,21 +10,22 @@
 /* The actual popup (appears on top) */
 
 .popup .popuptext {
+    padding: 10px 10px 10px 10px;
     position: fixed;
     visibility: hidden;
-    width: 60%;
-    height: 40%;
-    background-color: #555;
+    width: 70%;
+    height: 60%;
+    background-color: rgb(253, 253, 253, 0.9);
     color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 8px 0;
+    text-align: left;
+    border-radius: 10px;
     z-index: 1;
     bottom: 10%;
-    left: 27%;
+    left: 15%;
     right: auto;
-    margin-left: -80px;
     z-index: 200;
+    color: black;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
 }
 
 
