@@ -1,3 +1,30 @@
+
 .work-picture {
     align-self: flex-start!important;
+}
+  
+.edit-about-image {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+
+.edit-about-image>div {
+    width: 23%;
+    margin-bottom: 5%;
+    margin-right: 10px;
+}
+
+.edit-about-image>div span {
+    font-size: 12px;
+}
+
+.edit-about-image h6 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #4da6e7;
+    text-transform: uppercase;
+    margin-top: 4px;
+    margin-bottom: 5px;
+
 }

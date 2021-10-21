@@ -1041,7 +1041,9 @@ About Style
 }
 
 .about-left-image img {
-    margin-right: 45px;
+    margin-right: 0px;
+    width: 100%;
+    border-radius: 20px;
 }
 
 .about-right-content p {
