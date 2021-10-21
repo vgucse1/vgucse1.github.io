@@ -188,7 +188,6 @@ a {
 h1,
 h2,
 h3,
-
 h4 {
     font-size: 24px;
 }
@@ -1741,12 +1740,8 @@ Blog
 
 .show-up {
     position: relative;
-<<<<<<< Updated upstream
-    z-index: 222;
-=======
     z-index: 2;
     /*old: 222*/
->>>>>>> Stashed changes
 }
 
 .blog-post .thumb img {

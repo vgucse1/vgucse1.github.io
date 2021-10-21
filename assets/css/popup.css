@@ -10,19 +10,21 @@
 /* The actual popup (appears on top) */
 
 .popup .popuptext {
+    position: fixed;
     visibility: hidden;
-    width: 600px;
-    height: 500px;
+    width: 60%;
+    height: 40%;
     background-color: #555;
     color: #fff;
     text-align: center;
     border-radius: 6px;
     padding: 8px 0;
-    position: absolute;
     z-index: 1;
-    bottom: 125%;
-    left: 50%;
+    bottom: 10%;
+    left: 27%;
+    right: auto;
     margin-left: -80px;
+    z-index: 200;
 }
 
 

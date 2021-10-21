@@ -1,8 +1,7 @@
-
 .work-picture {
     align-self: flex-start!important;
 }
-  
+
 .edit-about-image {
     display: flex;
     justify-content: space-around;
@@ -26,5 +25,13 @@
     text-transform: uppercase;
     margin-top: 4px;
     margin-bottom: 5px;
+}
 
+.edit-back-image-contain {
+    display: flex;
+    justify-content: space-around;
+}
+
+.edit-back-image {
+    width: 18%;
 }
