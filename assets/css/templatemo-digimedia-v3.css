@@ -188,7 +188,6 @@ a {
 h1,
 h2,
 h3,
-
 h4 {
     font-size: 24px;
 }
@@ -1741,7 +1740,9 @@ Blog
 
 .show-up {
     position: relative;
-    z-index: 0;
+    z-index: 2;
+
+
 }
 
 .blog-post .thumb img {
