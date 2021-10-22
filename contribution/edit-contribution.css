@@ -1,0 +1,59 @@
+.edit-logo {
+    width: 20%;
+}
+
+.contribution {
+    margin-top: 17%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.contribution h2 {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+    color: #4da6e7;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.person-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.person {
+    box-shadow: 3px 3px 7px rgb(80 78 78 / 50%);
+    padding: 25px 25px 25px 25px;
+    width: 40%;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+}
+
+.avatar {
+    width: fit-content;
+}
+
+.avatar h3 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.avatar img {
+    width: 160px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+.works {
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.works h3 {
+    padding-bottom: 15px;
+}
