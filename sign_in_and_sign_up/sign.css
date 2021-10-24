@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-container {
+    align-self: center;
+    padding: 30px 70px 30px 50px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 7px rgb(80 78 78 / 50%);
+}
+
+.sign-container h2 {
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.sign-container input {
+    width: 300px;
+    height: 30px;
+    border-radius: 7px;
+}
+
+.sign-container #button {
+    display: inline-flex;
+    align-content: flex-start;
+    justify-content: center;
+    width: 50%;
+    border-radius: 10px;
+    /* padding: 5px 5px 5px 5px; */
+}
