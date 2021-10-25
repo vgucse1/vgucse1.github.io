@@ -30,14 +30,14 @@ https://templatemo.com/tm-568-digimedia
     <div class="sign-container">
         <h2>Sign Up</h2>
         <!--https://www.w3schools.com/tags/att_form_action.asp document for using action atribute-->
-        <form action="">
+        <form action="./login", method = "post">
             <label for="username">Username:</label><br/>
             <input type="text" id="username" name="username"><br><br>
             <label for="password">Password:</label><br>
             <input type="password" id="password" name="password"><br><br>
             <input type="submit" id="button" value="Sign In"><br><br>
             <span>Don't have an account? <a href="./register">Sign up</a></span><br>
-            <span class="alert">Here is the alert!</span>
+            <span class="alert"><%= mess_err %></span>
         </form>
     </div>
 </body>
