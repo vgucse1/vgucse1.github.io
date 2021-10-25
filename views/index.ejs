@@ -90,8 +90,11 @@ https://templatemo.com/tm-568-digimedia
                             <li class="scroll-to-section"><a href="#blog">Full-stack</a></li>
                             <li class="scroll-to-section"><a href="#contact">Conclusion</a></li>
                             <li class="scroll-to-section">
+                                <% if (login == false) { %>
                                 <div class="border-first-button"><a href="./register">Sign Up</a></div>
-                            </li>
+                                <% } else { %>
+                                <div class="border-first-button"><a href="./logout">Sign Out</a></div>
+                                <% } %>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
