@@ -45,7 +45,7 @@
 }
 
 .avatar img {
-    width: 160px;
+    width: 140px;
     border-radius: 100px;
     margin-bottom: 10px;
 }
@@ -57,4 +57,8 @@
 
 .works h3 {
     padding-bottom: 15px;
+}
+
+.works p {
+    font-size: 16px;
 }
